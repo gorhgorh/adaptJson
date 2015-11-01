@@ -1,0 +1,68 @@
+{
+    "introduction": [
+        {
+            "titre": "Shampoing & Soin",
+            "displaytitle": "display Title",
+            "description": "desc intro"
+        }
+    ],
+    "produits": [
+        {
+            "titre": "Oleo Active",
+            "description": "desc Prod1 oleo",
+            "image": "pdts_Oleo-Active.jpg",
+            "id": "oleo-active"
+        },
+        {
+            "titre": "Glossy Color",
+            "description": "desc Prod2 glossy",
+            "image": "pdts_Glossy-Color.jpg",
+            "id": "glossy-color"
+        }
+
+    ],
+    "oleo-active": [
+        {
+            "titre": "Shampooing",
+            "description": "desc oleo1",
+            "image": "pdt_Oleo-Active_shp.png"
+        },
+        {
+            "titre": "Masque",
+            "description": "desc oleo2",
+            "image": "pdt_Oleo-Active_masque.png"
+        },
+        {
+            "titre": "Baume express",
+            "description": "desc oleo3",
+            "image": "pdt_Oleo-Active_baume.png"
+        },
+        {
+            "titre": "Fluide intense",
+            "description": "desc oleo4",
+            "image": "pdt_Oleo-Active_fluide-intense.png"
+        }
+    ],
+    "glossy-color": [
+        {
+            "titre": "Shampooing",
+            "description": "desc glossy1",
+            "image": "pdt_Glossy-Color_shp.png"
+        },
+        {
+            "titre": "Masque",
+            "description": "desc glossy2",
+            "image": "pdt_Glossy-Color_masque.png"
+        },
+        {
+            "titre": "Lait",
+            "description": "desc glossy3",
+            "image": "pdt_Glossy-Color_lait.png"
+        },
+        {
+            "titre": "CC Crème",
+            "description": "desc glossy4",
+            "image": "pdt_Glossy-Color_cccreme.png"
+        }
+    ]
+}

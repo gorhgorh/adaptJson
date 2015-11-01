@@ -1,0 +1,23 @@
+{
+  "name": "adapt_json",
+  "version": "1.0.0",
+  "description": "json > adapt json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorhgorh/adaptJson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorhgorh/adaptJson/issues"
+  },
+  "homepage": "https://github.com/gorhgorh/adaptJson#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "traverse": "^0.6.6"
+  }
+}
