@@ -1,0 +1,18 @@
+{
+  "_id": "co-05",
+  "_parentId": "course",
+  "_type": "page",
+  "_classes": "",
+  "title": "Oleo Active",
+  "displayTitle": "Oleo Active",
+  "pageBody": "",
+  "body": "Pour les clientes ayant les cheveux très secs souhaitant les sublimer et les réparer",
+  "_graphic": {
+    "src": "course/en/images/1-oleo-active/OleoActive.jpg",
+    "alt": "Oleo Active"
+  },
+  "linkText": "View",
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}
