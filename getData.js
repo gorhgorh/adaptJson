@@ -18,6 +18,8 @@ module.exports = function(){
       // console.log(courseInfo);
     } else if (key === "produits"){
       _.forEach(n,function(data,key){
+        data.id = 'co-' + (5*key+5);
+        console.log('genId',data.id);
     	  // console.log(key, data);
     		productsInfo.push(data);
     	});

@@ -16,10 +16,12 @@ var createObject = function(template,data,fileName){
     if (err) throw err;
     console.log('saved',fileName);
   });
-  //console.log(jsonObj);
-
 };
 
+// create course.json
 var courseTemplate = createJson('./templates/course.json',data.courseInfo,'course.json');
-createObject('./templates/co.json',data.productsInfo,'co.json');
-console.log(data);
+
+// create contentObject.json
+createObject('./templates/co.json',data.productsInfo,'contentObject.json');
+
+//console.log(data);

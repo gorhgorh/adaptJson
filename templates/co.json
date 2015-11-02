@@ -1,5 +1,5 @@
 {
-  "_id": "co-05",
+  "_id": "<%= id %>",
   "_parentId": "course",
   "_type": "page",
   "_classes": "",
