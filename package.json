@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/gorhgorh/adaptJson#readme",
   "dependencies": {
-    "lodash": "^3.10.1",
-    "traverse": "^0.6.6"
+    "lodash": "^3.10.1"
   }
 }

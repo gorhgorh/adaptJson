@@ -3,12 +3,12 @@
   "_parentId": "course",
   "_type": "page",
   "_classes": "",
-  "title": "Oleo Active",
-  "displayTitle": "Oleo Active",
+  "title": "<%= titre %>",
+  "displayTitle": "<%= titre %>",
   "pageBody": "",
-  "body": "Pour les clientes ayant les cheveux très secs souhaitant les sublimer et les réparer",
+  "body": "<%= description %>",
   "_graphic": {
-    "src": "course/en/images/1-oleo-active/OleoActive.jpg",
+    "src": "<%= image %>",
     "alt": "Oleo Active"
   },
   "linkText": "View",

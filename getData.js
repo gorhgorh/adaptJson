@@ -1,9 +1,8 @@
 var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
-var traverse = require('traverse');
-var datafile = process.argv[2] || 'test.json' ;
-var jsonData = JSON.parse(fs.readFileSync('test.json','UTF-8'));
+var datafile = process.argv[2] || 'dataFile.json' ;
+var jsonData = JSON.parse(fs.readFileSync(datafile,'UTF-8'));
 
 module.exports = function(){
   var courseInfo = {};
@@ -14,7 +13,7 @@ module.exports = function(){
     if(key === "introduction"){
     	courseInfo.title = n[0].titre;
     	courseInfo.displayTitle = n[0].displaytitle;
-    	courseInfo.desc = n[0].description;
+    	courseInfo.description = n[0].description;
       dataObj.courseInfo = courseInfo ;
       // console.log(courseInfo);
     } else if (key === "produits"){
@@ -35,11 +34,3 @@ module.exports = function(){
   });
   return dataObj;
 };
-
-// toto = gatherData();
-// console.log('toto',toto);
-// traverse(componentArray).forEach(function (x) {
-//   // console.log(typeof(x),x);
-// });
-
-//console.log(componentArray);
